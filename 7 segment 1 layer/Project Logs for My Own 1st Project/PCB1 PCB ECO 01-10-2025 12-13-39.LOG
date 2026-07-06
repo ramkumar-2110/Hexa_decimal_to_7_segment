@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=O4 Pin=U3-12
+Removed Pin From Net: NetName=O1 Pin=U3-13
+Added Pin To Net: NetName=O4 Pin=U3-1
+Added Pin To Net: NetName=O1 Pin=U3-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

@@ -1,0 +1,1754 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 0 153.74998206 110.16000066 270 N P1 691311500002 ;0=2,1=12.0000,5=0
+PRP Color 'Green'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Tin'
+PRP Current '20A'
+PRP Gender 'Male'
+PRP Height '12mm'
+PRP Lead_Pitch '5.08mm'
+PRP Length '8.5mm'
+PRP Mount 'Through Hole'
+PRP NexarPartId '8917741'
+PRP Number_of_Contacts '2'
+PRP Number_of_Levels '1'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions_Per_Level '2'
+PRP Number_of_Rows '1'
+PRP Orientation 'Vertical'
+PRP Packaging 'Box'
+PRP Pitch '5.08mm'
+PRP REACH_SVHC 'Unknown'
+PRP RoHS 'Compliant'
+PRP Termination 'Solder'
+PRP Voltage '300V'
+PRP Width '10.16mm'
+TOP 0 154.19999894 107.62005146 270 N 86 120 1
+TOP 1 154.19999894 112.70000066 270 N 85 2 2
+#
+# CMP 1
+CMP 4 125.40000066 49.40000026 0 N U8 SN74LS11N ;0=2,1=5.0800,5=0
+PRP Bits(#) '3'
+PRP DatasheetVersion 'SDLS131'
+PRP F_@_Nom_Voltage(Max)(Mhz) '35'
+PRP Generic_Part_Number 'SN74LS11'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.0036'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '0/8'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0014A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'LS'
+PRP tpd_@_Nom_Voltage(Max)(ns) '15'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 121.59000066 57.02000026 0 N 23 0 1
+TOP 1 121.59000066 54.48000026 0 N 21 0 2
+TOP 2 121.59000066 51.94000026 0 N 25 0 3
+TOP 3 121.59000066 49.40000026 0 N 28 1 4
+TOP 4 121.59000066 46.86000026 0 N 20 1 5
+TOP 5 121.59000066 44.32000026 0 N 17 1 6
+TOP 6 121.59000066 41.78000026 0 N 0 25 7
+TOP 7 129.21000066 41.78000026 0 N 15 0 8
+TOP 8 129.21000066 44.32000026 0 N 34 2 9
+TOP 9 129.21000066 46.86000026 0 N 32 1 10
+TOP 10 129.21000066 49.40000026 0 N 31 1 11
+TOP 11 129.21000066 51.94000026 0 N 19 2 12
+TOP 12 129.21000066 54.48000026 0 N 20 0 13
+TOP 13 129.21000066 57.02000026 0 N 0 28 14
+#
+# CMP 2
+CMP 4 74.69000048 49.40000026 0 N U4 SN74S08N ;0=2,1=5.0800,5=0
+PRP Bits(#) '4'
+PRP DatasheetVersion 'SDLS033'
+PRP F_@_Nom_Voltage(Max)(Mhz) '50'
+PRP Generic_Part_Number 'SN74S08'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.032'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '-24/24'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0014A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'S'
+PRP tpd_@_Nom_Voltage(Max)(ns) '7.5'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 70.88000048 57.02000026 0 N 15 1 1
+TOP 1 70.88000048 54.48000026 0 N 14 1 2
+TOP 2 70.88000048 51.94000026 0 N 6 1 3
+TOP 3 70.88000048 49.40000026 0 N 12 1 4
+TOP 4 70.88000048 46.86000026 0 N 11 1 5
+TOP 5 70.88000048 44.32000026 0 N 4 1 6
+TOP 6 70.88000048 41.78000026 0 N 86 119 7
+TOP 7 78.50000048 41.78000026 0 N 0 23 8
+TOP 8 78.50000048 44.32000026 0 N 0 24 9
+TOP 9 78.50000048 46.86000026 0 N 0 19 10
+TOP 10 78.50000048 49.40000026 0 N 5 1 11
+TOP 11 78.50000048 51.94000026 0 N 34 3 12
+TOP 12 78.50000048 54.48000026 0 N 13 1 13
+TOP 13 78.50000048 57.02000026 0 N 0 22 14
+#
+# CMP 3
+CMP 1 32.40000124 102.40000094 0 N SW5 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 34.65000182 105.65000206 0 N 47 1 1
+TOP 1 34.65000182 99.14999982 0 N 73 1 2
+TOP 2 30.15000066 105.65000206 0 N 86 126 3
+TOP 3 30.15000066 99.14999982 0 N 86 94 4
+#
+# CMP 4
+CMP 8 140.46600304 122.05200126 180 N U12 L7805CP ;0=2,1=20.0000,5=0
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.st.com'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000444.pdf'
+PRP DatasheetVersion '16/11/2011'
+PRP PackageDescription 'TO, Thru-Hole, Vertical, Heatsink Mounted; 3 In-Line Leads; Pitch 2.54 mm'
+PRP PackageReference 'TO220FP'
+PRP PackageVersion '2011'
+TOP 0 143.0060005 122.05200126 180 N 85 0 1
+TOP 1 140.46599796 122.05200126 180 N 86 111 2
+TOP 2 137.92599796 122.05200126 180 N 84 0 3
+#
+# CMP 5
+CMP 6 132.39999936 90.69999894 180 N U11 SN74154N ;0=2,1=5.0800,5=0
+PRP Code_JEDEC 'MS-011'
+PRP DatasheetVersion 'SDLS056'
+PRP Generic_Part_Number 'SN74154'
+PRP Manufacturer 'Texas Instruments'
+PRP PackageReference 'N0024A'
+TOP 0 140.01999936 76.7299964 180 N 35 1 1
+TOP 1 140.01999936 79.26999894 180 N 34 4 2
+TOP 2 140.01999936 81.80999894 180 N 33 2 3
+TOP 3 140.01999936 84.34999894 180 N 32 2 4
+TOP 4 140.01999936 86.89000148 180 N 31 2 5
+TOP 5 140.01999936 89.42999894 180 N 30 2 6
+TOP 6 140.01999936 91.96999894 180 N 29 1 7
+TOP 7 140.01999936 94.50999894 180 N 28 3 8
+TOP 8 140.01999936 97.04999894 180 N 27 0 9
+TOP 9 140.01999936 99.5899964 180 N 26 1 10
+TOP 10 140.01999936 102.12999894 180 N 25 1 11
+TOP 11 140.01999936 104.66999894 180 N 86 121 12
+TOP 12 124.77999936 104.66999894 180 N 24 0 13
+TOP 13 124.77999936 102.13000148 180 N 23 2 14
+TOP 14 124.77999936 99.5899964 180 N 22 1 15
+TOP 15 124.77999936 97.04999894 180 N 21 1 16
+TOP 16 124.77999936 94.50999894 180 N 20 2 17
+TOP 17 124.77999936 91.96999894 180 N 86 123 18
+TOP 18 124.77999936 89.43000148 180 N 86 122 19
+TOP 19 124.77999936 86.8899964 180 N 52 1 20
+TOP 20 124.77999936 84.34999894 180 N 56 1 21
+TOP 21 124.77999936 81.80999894 180 N 59 1 22
+TOP 22 124.77999936 79.27000148 180 N 55 1 23
+TOP 23 124.77999936 76.7299964 180 N 87 15 24
+#
+# CMP 6
+CMP 5 90.39999954 78.40000068 0 N U10 SN74LS148N ;0=2,1=5.0800,5=0
+PRP Bits(#) '8'
+PRP Channels(#) '1'
+PRP Code_JEDEC 'MS-001'
+PRP Configuration '8:3'
+PRP DatasheetVersion 'SDLS053B'
+PRP F_@_Nom_Voltage(Max)(Mhz) '35'
+PRP Function 'Encoder/Multiplexer'
+PRP Generic_Part_Number 'SN74LS148'
+PRP ICC_@_Nom_Voltage(Max)(mA) '20'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '8/-0.4'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0016A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'LS'
+PRP tpd_@_Nom_Voltage(Max)(ns) '19'
+PRP Type 'Standard'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 86.58999954 87.29000068 0 N 39 0 1
+TOP 1 86.58999954 84.75000068 0 N 38 0 2
+TOP 2 86.58999954 82.21000068 0 N 37 0 3
+TOP 3 86.58999954 79.67000068 0 N 36 0 4
+TOP 4 86.58999954 77.13000068 0 N 86 106 5
+TOP 5 86.58999954 74.59000068 0 N 77 0 6
+TOP 6 86.58999954 72.05000068 0 N 78 0 7
+TOP 7 86.58999954 69.51000068 0 N 86 108 8
+TOP 8 94.20999954 69.51000068 0 N 79 0 9
+TOP 9 94.20999954 72.05000068 0 N 43 0 10
+TOP 10 94.20999954 74.59000068 0 N 42 0 11
+TOP 11 94.20999954 77.13000068 0 N 41 0 12
+TOP 12 94.20999954 79.67000068 0 N 40 0 13
+TOP 13 94.20999954 82.21000068 0 N 0 10 14
+TOP 14 94.20999954 84.75000068 0 N 52 0 15
+TOP 15 94.20999954 87.29000068 0 N 87 9 16
+#
+# CMP 7
+CMP 5 90.39999954 108.3999991 0 N U9 SN74LS148N ;0=2,1=5.0800,5=0
+PRP Bits(#) '8'
+PRP Channels(#) '1'
+PRP Code_JEDEC 'MS-001'
+PRP Configuration '8:3'
+PRP DatasheetVersion 'SDLS053B'
+PRP F_@_Nom_Voltage(Max)(Mhz) '35'
+PRP Function 'Encoder/Multiplexer'
+PRP Generic_Part_Number 'SN74LS148'
+PRP ICC_@_Nom_Voltage(Max)(mA) '20'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '8/-0.4'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0016A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'LS'
+PRP tpd_@_Nom_Voltage(Max)(ns) '19'
+PRP Type 'Standard'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 86.58999954 117.29000164 0 N 47 0 1
+TOP 1 86.58999954 114.74999656 0 N 46 0 2
+TOP 2 86.58999954 112.2099991 0 N 45 0 3
+TOP 3 86.58999954 109.6699991 0 N 44 0 4
+TOP 4 86.58999954 107.1299991 0 N 86 105 5
+TOP 5 86.58999954 104.5899991 0 N 80 1 6
+TOP 6 86.58999954 102.0499991 0 N 81 1 7
+TOP 7 86.58999954 99.5099991 0 N 1 1 8
+TOP 8 94.20999954 99.5099991 0 N 82 1 9
+TOP 9 94.20999954 102.0499991 0 N 51 0 10
+TOP 10 94.20999954 104.5899991 0 N 50 0 11
+TOP 11 94.20999954 107.12999656 0 N 49 0 12
+TOP 12 94.20999954 109.6699991 0 N 48 0 13
+TOP 13 94.20999954 112.2099991 0 N 0 15 14
+TOP 14 94.20999954 114.7499991 0 N 0 14 15
+TOP 15 94.20999954 117.29000164 0 N 87 10 16
+#
+# CMP 8
+CMP 4 151.38999948 84.37999634 0 N U7 SN74LS11N ;0=2,1=5.0800,5=0
+PRP Bits(#) '3'
+PRP DatasheetVersion 'SDLS131'
+PRP F_@_Nom_Voltage(Max)(Mhz) '35'
+PRP Generic_Part_Number 'SN74LS11'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.0036'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '0/8'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0014A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'LS'
+PRP tpd_@_Nom_Voltage(Max)(ns) '15'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 147.57999948 91.99999634 0 N 30 1 1
+TOP 1 147.57999948 89.45999634 0 N 28 2 2
+TOP 2 147.57999948 86.91999634 0 N 33 0 3
+TOP 3 147.57999948 84.37999634 0 N 32 0 4
+TOP 4 147.57999948 81.83999634 0 N 28 4 5
+TOP 5 147.57999948 79.29999634 0 N 13 0 6
+TOP 6 147.57999948 76.75999634 0 N 0 20 7
+TOP 7 155.19999948 76.75999634 0 N 11 0 8
+TOP 8 155.19999948 79.29999634 0 N 28 0 9
+TOP 9 155.19999948 81.83999634 0 N 23 1 10
+TOP 10 155.19999948 84.37999634 0 N 22 0 11
+TOP 11 155.19999948 86.91999634 0 N 14 0 12
+TOP 12 155.19999948 89.45999634 0 N 26 0 13
+TOP 13 155.19999948 91.99999634 0 N 0 21 14
+#
+# CMP 9
+CMP 4 111.89999972 108.3999991 0 N U5 SN74HCU04N ;0=2,1=5.0800,5=0
+PRP Bits(#) '6'
+PRP Code_JEDEC 'MS-001'
+PRP DatasheetVersion 'SCLS079E'
+PRP F_@_Nom_Voltage(Max)(Mhz) '20'
+PRP Generic_Part_Number 'SN74HCU04'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.02'
+PRP Input_Type 'CMOS'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '-40 to 85'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '-4/4'
+PRP Output_Type 'CMOS'
+PRP PackageReference 'N0014A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'HC'
+PRP tpd_@_Nom_Voltage(Max)(ns) '20'
+PRP VCC(Max)(V) '6'
+PRP VCC(Min)(V) '2'
+PRP Voltage(Nom)(V) '5'
+TOP 0 108.08999972 116.0199991 0 N 82 0 1
+TOP 1 108.08999972 113.4799991 0 N 53 1 2
+TOP 2 108.08999972 110.9399991 0 N 80 0 3
+TOP 3 108.08999972 108.3999991 0 N 57 1 4
+TOP 4 108.08999972 105.8599991 0 N 81 0 5
+TOP 5 108.08999972 103.3199991 0 N 61 1 6
+TOP 6 108.08999972 100.7799991 0 N 1 0 7
+TOP 7 115.70999972 100.7799991 0 N 60 1 8
+TOP 8 115.70999972 103.3199991 0 N 78 1 9
+TOP 9 115.70999972 105.8599991 0 N 58 1 10
+TOP 10 115.70999972 108.3999991 0 N 77 1 11
+TOP 11 115.70999972 110.9399991 0 N 54 1 12
+TOP 12 115.70999972 113.4799991 0 N 79 1 13
+TOP 13 115.70999972 116.0199991 0 N 87 8 14
+#
+# CMP 10
+CMP 4 101.60999998 49.40000026 0 N U3 SN74S08N ;0=2,1=5.0800,5=0
+PRP Bits(#) '4'
+PRP DatasheetVersion 'SDLS033'
+PRP F_@_Nom_Voltage(Max)(Mhz) '50'
+PRP Generic_Part_Number 'SN74S08'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.032'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '-24/24'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0014A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'S'
+PRP tpd_@_Nom_Voltage(Max)(ns) '7.5'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 97.79999998 57.02000026 0 N 31 0 1
+TOP 1 97.79999998 54.48000026 0 N 34 1 2
+TOP 2 97.79999998 51.94000026 0 N 10 0 3
+TOP 3 97.79999998 49.40000026 0 N 17 0 4
+TOP 4 97.79999998 46.86000026 0 N 16 1 5
+TOP 5 97.79999998 44.32000026 0 N 7 0 6
+TOP 6 97.79999998 41.78000026 0 N 0 26 7
+TOP 7 105.41999998 41.78000026 0 N 8 0 8
+TOP 8 105.41999998 44.32000026 0 N 33 1 9
+TOP 9 105.41999998 46.86000026 0 N 19 0 10
+TOP 10 105.41999998 49.40000026 0 N 9 0 11
+TOP 11 105.41999998 51.94000026 0 N 19 1 12
+TOP 12 105.41999998 54.48000026 0 N 18 1 13
+TOP 13 105.41999998 57.02000026 0 N 0 18 14
+#
+# CMP 11
+CMP 4 148.00000118 49.40000026 0 N U2 SN74S08N ;0=2,1=5.0800,5=0
+PRP Bits(#) '4'
+PRP DatasheetVersion 'SDLS033'
+PRP F_@_Nom_Voltage(Max)(Mhz) '50'
+PRP Generic_Part_Number 'SN74S08'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.032'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '-24/24'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0014A'
+PRP Rating 'Catalog'
+PRP Schmitt_Trigger 'No'
+PRP Technology_Family 'S'
+PRP tpd_@_Nom_Voltage(Max)(ns) '7.5'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 144.19000118 57.02000026 0 N 30 0 1
+TOP 1 144.19000118 54.48000026 0 N 29 0 2
+TOP 2 144.19000118 51.94000026 0 N 18 0 3
+TOP 3 144.19000118 49.40000026 0 N 31 3 4
+TOP 4 144.19000118 46.86000026 0 N 34 5 5
+TOP 5 144.19000118 44.32000026 0 N 16 0 6
+TOP 6 144.19000118 41.78000026 0 N 0 5 7
+TOP 7 151.81000118 41.78000026 0 N 12 0 8
+TOP 8 151.81000118 44.32000026 0 N 35 0 9
+TOP 9 151.81000118 46.86000026 0 N 34 0 10
+TOP 10 151.81000118 49.40000026 0 N 0 9 11
+TOP 11 151.81000118 51.94000026 0 N 0 12 12
+TOP 12 151.81000118 54.48000026 0 N 0 11 13
+TOP 13 151.81000118 57.02000026 0 N 0 6 14
+#
+# CMP 12
+CMP 4 111.89999972 78.40000068 0 N U1 SN7432N ;0=2,1=5.0800,5=0
+PRP Bits(#) '4'
+PRP Code_JEDEC 'MS-001'
+PRP DatasheetVersion 'SDLS100'
+PRP F_@_Nom_Voltage(Max)(Mhz) '100'
+PRP Generic_Part_Number 'SN7432'
+PRP ICC_@_Nom_Voltage(Max)(mA) '0.038'
+PRP Input_Type 'TTL'
+PRP Manufacturer 'Texas Instruments'
+PRP Operating_Temperature_Range(C) '0 to 70'
+PRP Output_Drive_(IOL/IOH)(Max)(mA) '0.8/-16'
+PRP Output_Type 'TTL'
+PRP PackageReference 'N0014A'
+PRP PackageVersion 'http://www.ti.com/lit/ml/mpdi002c/mpdi002c.pdf'
+PRP Rating 'Catalog'
+PRP tpd_@_Nom_Voltage(Max)(ns) '22'
+PRP VCC(Max)(V) '5.25'
+PRP VCC(Min)(V) '4.75'
+PRP Voltage(Nom)(V) '5'
+TOP 0 108.08999972 86.02000068 0 N 61 0 1
+TOP 1 108.08999972 83.48000068 0 N 60 0 2
+TOP 2 108.08999972 80.94000068 0 N 59 0 3
+TOP 3 108.08999972 78.40000068 0 N 58 0 4
+TOP 4 108.08999972 75.86000068 0 N 57 0 5
+TOP 5 108.08999972 73.32000068 0 N 56 0 6
+TOP 6 108.08999972 70.78000068 0 N 86 104 7
+TOP 7 115.70999972 70.78000068 0 N 55 0 8
+TOP 8 115.70999972 73.32000068 0 N 54 0 9
+TOP 9 115.70999972 75.86000068 0 N 53 0 10
+TOP 10 115.70999972 78.40000068 0 N 0 17 11
+TOP 11 115.70999972 80.94000068 0 N 0 16 12
+TOP 12 115.70999972 83.48000068 0 N 0 13 13
+TOP 13 115.70999972 86.02000068 0 N 87 5 14
+#
+# CMP 13
+CMP 1 71.39999944 72.39999998 0 N SW16 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 73.65000002 75.6500011 0 N 36 1 1
+TOP 1 73.65000002 69.14999886 0 N 62 1 2
+TOP 2 69.14999886 75.6500011 0 N 86 114 3
+TOP 3 69.14999886 69.14999886 0 N 86 128 4
+#
+# CMP 14
+CMP 1 58.40000004 72.39999998 0 N SW15 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 60.65000062 75.6500011 0 N 37 1 1
+TOP 1 60.65000062 69.14999886 0 N 63 1 2
+TOP 2 56.14999946 75.6500011 0 N 86 118 3
+TOP 3 56.14999946 69.14999886 0 N 86 98 4
+#
+# CMP 15
+CMP 1 45.40000064 72.39999998 0 N SW14 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 47.65000122 75.6500011 0 N 38 1 1
+TOP 1 47.65000122 69.14999886 0 N 64 1 2
+TOP 2 43.15000006 75.6500011 0 N 86 124 3
+TOP 3 43.15000006 69.14999886 0 N 86 99 4
+#
+# CMP 16
+CMP 1 32.40000124 72.39999998 0 N SW13 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 34.65000182 75.6500011 0 N 39 1 1
+TOP 1 34.65000182 69.14999886 0 N 65 1 2
+TOP 2 30.15000066 75.6500011 0 N 86 131 3
+TOP 3 30.15000066 69.14999886 0 N 86 129 4
+#
+# CMP 17
+CMP 1 71.39999944 87.40000046 0 N SW12 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 73.65000002 90.65000158 0 N 40 1 1
+TOP 1 73.65000002 84.14999934 0 N 66 1 2
+TOP 2 69.14999886 90.65000158 0 N 0 2 3
+TOP 3 69.14999886 84.14999934 0 N 86 96 4
+#
+# CMP 18
+CMP 1 58.40000004 87.40000046 0 N SW11 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 60.65000062 90.65000158 0 N 41 1 1
+TOP 1 60.65000062 84.14999934 0 N 67 1 2
+TOP 2 56.14999946 90.65000158 0 N 0 3 3
+TOP 3 56.14999946 84.14999934 0 N 86 97 4
+#
+# CMP 19
+CMP 1 45.40000064 87.40000046 0 N SW10 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 47.65000122 90.65000158 0 N 42 1 1
+TOP 1 47.65000122 84.14999934 0 N 68 1 2
+TOP 2 43.15000006 90.65000158 0 N 0 0 3
+TOP 3 43.15000006 84.14999934 0 N 86 102 4
+#
+# CMP 20
+CMP 1 32.40000124 87.40000046 0 N SW9 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 34.65000182 90.65000158 0 N 43 1 1
+TOP 1 34.65000182 84.14999934 0 N 69 1 2
+TOP 2 30.15000066 90.65000158 0 N 1 2 3
+TOP 3 30.15000066 84.14999934 0 N 86 100 4
+#
+# CMP 21
+CMP 1 71.39999944 102.40000094 0 N SW8 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 73.65000002 105.65000206 0 N 44 1 1
+TOP 1 73.65000002 99.14999982 0 N 70 1 2
+TOP 2 69.14999886 105.65000206 0 N 86 115 3
+TOP 3 69.14999886 99.14999982 0 N 86 109 4
+#
+# CMP 22
+CMP 1 58.40000004 102.40000094 0 N SW7 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 60.65000062 105.65000206 0 N 45 1 1
+TOP 1 60.65000062 99.14999982 0 N 71 1 2
+TOP 2 56.14999946 105.65000206 0 N 86 116 3
+TOP 3 56.14999946 99.14999982 0 N 86 103 4
+#
+# CMP 23
+CMP 1 45.40000064 102.40000094 0 N SW6 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 47.65000122 105.65000206 0 N 46 1 1
+TOP 1 47.65000122 99.14999982 0 N 72 1 2
+TOP 2 43.15000006 105.65000206 0 N 86 117 3
+TOP 3 43.15000006 99.14999982 0 N 86 101 4
+#
+# CMP 24
+CMP 1 71.39999944 117.39999888 0 N SW4 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 73.65000002 120.65 0 N 48 1 1
+TOP 1 73.65000002 114.14999776 0 N 74 0 2
+TOP 2 69.14999886 120.65 0 N 86 130 3
+TOP 3 69.14999886 114.14999776 0 N 86 107 4
+#
+# CMP 25
+CMP 1 58.40000004 117.39999888 0 N SW3 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 60.65000062 120.65 0 N 49 1 1
+TOP 1 60.65000062 114.14999776 0 N 75 1 2
+TOP 2 56.14999946 120.65 0 N 86 132 3
+TOP 3 56.14999946 114.14999776 0 N 86 110 4
+#
+# CMP 26
+CMP 1 45.40000064 117.39999888 0 N SW2 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 47.65000122 120.65 0 N 50 1 1
+TOP 1 47.65000122 114.14999776 0 N 76 0 2
+TOP 2 43.15000006 120.65 0 N 86 134 3
+TOP 3 43.15000006 114.14999776 0 N 86 95 4
+#
+# CMP 27
+CMP 1 32.40000124 117.39999888 0 N SW1 1-1825910-5 ;0=2,1=0.0000,5=0
+PRP Actuator_Color 'Red'
+PRP Actuator_Length '5.9mm'
+PRP Actuator_Material 'PBT'
+PRP Actuator_Type 'Standard'
+PRP Contact_Current_Rating '50mA'
+PRP Contact_Material 'Brass'
+PRP Contact_Plating 'Silver'
+PRP Contact_Resistance '100mR'
+PRP Electrical_Life '100000Cycles'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Length '5.99mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '24V'
+PRP Mechanical_Life '100000Cycles'
+PRP Min_Operating_Temperature '-35°C'
+PRP Mount 'Through Hole'
+PRP Operating_Force '2.55N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '750'
+PRP Packaging 'Loose Piece'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FSMJ, Alcoswitch'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.25mm'
+PRP Termination 'PC Pins'
+PRP Throw_Configuration 'SPST'
+PRP Type 'Switch'
+PRP Voltage_Rating_(DC) '24V'
+TOP 0 34.65000182 120.65 0 N 51 1 1
+TOP 1 34.65000182 114.14999776 0 N 83 1 2
+TOP 2 30.15000066 120.65 0 N 86 133 3
+TOP 3 30.15000066 114.14999776 0 N 86 93 4
+#
+# CMP 28
+CMP 7 126.8770005 120.90900126 90 N S1 TL2230OAF140 ;0=2,1=12.5000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/TL2230OAF140/E-Switch/view-part/?ref=eda'
+PRP MF 'E-Switch'
+PRP MP 'TL2230OAF140'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/TL2230OAF140/E-Switch/view-part/?ref=snap'
+PRP Value ''
+TOP 0 129.37700058 122.90900234 90 N 0 1 1
+TOP 1 129.37700058 120.90900126 90 N 84 1 2
+TOP 2 129.37700058 118.90900018 90 N 87 6 3
+TOP 3 124.37700042 122.90900234 90 N 0 8 4
+TOP 4 124.37700042 120.90900126 90 N 0 7 5
+TOP 5 124.37700042 118.90900018 90 N 0 4 6
+#
+# CMP 29
+CMP 3 30.15000066 45.40000064 90 N R18 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 30.15000066 50.40000334 90 N 86 127 1
+TOP 1 30.15000066 40.39999794 90 N 2 0 2
+#
+# CMP 30
+CMP 3 34.07000044 45.40000064 270 N R17 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 34.07000044 40.40000048 270 N 3 0 1
+TOP 1 34.07000044 50.4000008 270 N 86 125 2
+#
+# CMP 31
+CMP 3 73.90000206 66.19999968 180 N R16 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 78.90000476 66.19999968 180 N 87 21 1
+TOP 1 68.89999936 66.19999968 180 N 62 0 2
+#
+# CMP 32
+CMP 3 60.90000012 66.19999968 180 N R15 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 65.90000282 66.19999968 180 N 87 20 1
+TOP 1 55.89999742 66.19999968 180 N 63 0 2
+#
+# CMP 33
+CMP 3 47.90000072 66.19999968 180 N R14 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 52.90000342 66.19999968 180 N 87 11 1
+TOP 1 42.89999802 66.19999968 180 N 64 0 2
+#
+# CMP 34
+CMP 3 34.89999878 66.19999968 180 N R13 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 39.90000148 66.19999968 180 N 87 13 1
+TOP 1 29.89999608 66.19999968 180 N 65 0 2
+#
+# CMP 35
+CMP 3 73.90000206 81.20000016 180 N R12 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 78.90000476 81.20000016 180 N 87 17 1
+TOP 1 68.89999936 81.20000016 180 N 66 0 2
+#
+# CMP 36
+CMP 3 60.90000012 81.20000016 180 N R11 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 65.90000282 81.20000016 180 N 87 19 1
+TOP 1 55.89999742 81.20000016 180 N 67 0 2
+#
+# CMP 37
+CMP 3 47.90000072 81.20000016 180 N R10 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 52.90000342 81.20000016 180 N 87 16 1
+TOP 1 42.89999802 81.20000016 180 N 68 0 2
+#
+# CMP 38
+CMP 3 34.89999878 81.20000016 180 N R9 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 39.90000148 81.20000016 180 N 87 12 1
+TOP 1 29.89999608 81.20000016 180 N 69 0 2
+#
+# CMP 39
+CMP 3 73.89999952 96.20000064 180 N R8 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 78.90000222 96.20000064 180 N 87 2 1
+TOP 1 68.89999682 96.20000064 180 N 70 0 2
+#
+# CMP 40
+CMP 3 60.90000266 96.20000064 180 N R7 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 65.90000536 96.20000064 180 N 87 0 1
+TOP 1 55.89999996 96.20000064 180 N 71 0 2
+#
+# CMP 41
+CMP 3 47.90000072 96.20000064 180 N R6 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 52.90000342 96.20000064 180 N 87 4 1
+TOP 1 42.89999802 96.20000064 180 N 72 0 2
+#
+# CMP 42
+CMP 3 34.89999878 96.20000064 180 N R5 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 39.90000148 96.20000064 180 N 87 18 1
+TOP 1 29.89999608 96.20000064 180 N 73 0 2
+#
+# CMP 43
+CMP 3 73.90000206 111.20000112 180 N R4 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 78.90000476 111.20000112 180 N 87 14 1
+TOP 1 68.89999936 111.20000112 180 N 74 1 2
+#
+# CMP 44
+CMP 3 60.90000012 111.20000112 180 N R3 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 65.90000282 111.20000112 180 N 87 1 1
+TOP 1 55.89999742 111.20000112 180 N 75 0 2
+#
+# CMP 45
+CMP 3 47.90000072 111.20000112 180 N R2 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 52.90000342 111.20000112 180 N 87 7 1
+TOP 1 42.89999802 111.20000112 180 N 76 1 2
+#
+# CMP 46
+CMP 3 34.89999878 111.20000112 180 N R1 MRS25000C1001FCT00 ;0=2,1=0.0000,5=0
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MRS25'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+PRP Voltage_Rating '350V'
+PRP Voltage_Rating_(DC) '350V'
+PRP Weight '0.00776oz'
+PRP Width '2.5mm'
+TOP 0 39.8999964 111.20000112 180 N 87 3 1
+TOP 1 29.89999608 111.20000112 180 N 83 0 2
+#
+# CMP 47
+CMP 9 43.29999976 49.40000026 0 N DS1 157142V12703 ;0=2,1=8.2500,5=0
+PRP Dominant_Wavelength '572nm'
+PRP Forward_Current '100mA'
+PRP Forward_Voltage '2.2V'
+PRP Height '8mm'
+PRP Length '19mm'
+PRP Luminous_Intensity '25mcd'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Reverse_Voltage_(DC) '5V'
+PRP Min_Operating_Temperature '-40°C'
+PRP NexarPartId '119894004'
+PRP RoHS 'Compliant'
+PRP Width '12.6mm'
+TOP 0 38.37999944 41.78000026 0 N 6 0 1
+TOP 1 40.8399996 41.78000026 0 N 7 1 2
+TOP 2 43.29999976 41.78000026 0 N 3 1 3
+TOP 3 45.75999992 41.78000026 0 N 8 1 4
+TOP 4 48.22000008 41.78000026 0 N 0 27 5
+TOP 5 48.22000008 57.02000026 0 N 9 1 6
+TOP 6 45.75999992 57.02000026 0 N 10 1 7
+TOP 7 43.29999976 57.02000026 0 N 2 1 8
+TOP 8 40.8399996 57.02000026 0 N 5 0 9
+TOP 9 38.37999944 57.02000026 0 N 4 0 10
+#
+# CMP 48
+CMP 2 132.8460005 120.27400126 90 N C2 D222K33Y5PL6UJ5R ;0=2,1=0.0000,5=0
+PRP Capacitance '2.2nF'
+PRP Case/Package 'Radial'
+PRP Construction 'RADIAL'
+PRP Contact_Plating 'Tin'
+PRP Depth '4mm'
+PRP Dielectric 'Y5P'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Pitch '5mm'
+PRP Lead/Base_Style 'Kinked'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-30°C'
+PRP Mount 'Through Hole'
+PRP Package_Quantity '2000'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP Resistor_Type 'Ceramic'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'D'
+PRP Termination 'Radial'
+PRP Tolerance '10%'
+PRP Value '2.2nF'
+PRP Voltage_Rating '500V'
+TOP 0 132.8460005 122.77400134 90 N 84 2 1
+TOP 1 132.8460005 117.77400118 90 N 86 112 2
+#
+# CMP 49
+CMP 2 148.0860005 120.36100134 90 N C1 D222K33Y5PL6UJ5R ;0=2,1=0.0000,5=0
+PRP Capacitance '2.2nF'
+PRP Case/Package 'Radial'
+PRP Construction 'RADIAL'
+PRP Contact_Plating 'Tin'
+PRP Depth '4mm'
+PRP Dielectric 'Y5P'
+PRP Lead_Diameter '0.6mm'
+PRP Lead_Pitch '5mm'
+PRP Lead/Base_Style 'Kinked'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-30°C'
+PRP Mount 'Through Hole'
+PRP Package_Quantity '2000'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP Resistor_Type 'Ceramic'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'D'
+PRP Termination 'Radial'
+PRP Tolerance '10%'
+PRP Value '2.2nF'
+PRP Voltage_Rating '500V'
+TOP 0 148.0860005 122.86100142 90 N 85 1 1
+TOP 1 148.0860005 117.86100126 90 N 86 113 2
+#
