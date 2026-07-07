@@ -123,21 +123,38 @@ Features
 - Manual component placement
 - Compact design
 
-### Bottom View
+<h2>Single Layer PCB</h2>
 
-![Single Layer Bottom](Images/Single_Layer/Bottom_Layer.png)
+<table>
+<tr>
+<td align="center">
+<b>Top View</b><br>
+<img src="Images/Single_Layer/Top_Layer.png" width="400">
+</td>
 
-### Front View
+<td align="center">
+<b>Bottom View</b><br>
+<img src="Images/Single_Layer/Bottom_Layer.png" width="400">
+</td>
+</tr>
 
-![Single Layer Front](Images/Single_Layer/Single_Layer_Front_View.png)
+<tr>
+<td align="center">
+<b>Front View</b><br>
+<img src="Images/Single_Layer/Single_Layer_Front_View.png" width="400">
+</td>
 
-### Back View
+<td align="center">
+<b>Back View</b><br>
+<img src="Images/Single_Layer/Single_Layer_Back_View.png" width="400">
+</td>
+</tr>
+</table>
 
-![Single Layer Back](Images/Single_Layer/Single_Layer_Back_View.png)
-
-### Sectional View
-
-![Single Layer Section](Images/Single_Layer/Single_Layer_Sectional_View.png)
+<p align="center">
+<b>Sectional View</b><br>
+<img src="Images/Single_Layer/Single_Layer_Sectional_View.png" width="500">
+</p>
 
 ---
 
@@ -151,27 +168,38 @@ Features
 - Cleaner routing
 - Professional PCB layout
 
-## Two Layer PCB
+<h2>Two Layer PCB</h2>
 
-### Top View
+<table>
+<tr>
+<td align="center">
+<b>Top View</b><br>
+<img src="Images/Double_Layer/Top_Layer.png" width="400">
+</td>
 
-![Two Layer Top](Images/Double_Layer/Top_Layer.png)
+<td align="center">
+<b>Bottom View</b><br>
+<img src="Images/Double_Layer/Bottom_Layer.png" width="400">
+</td>
+</tr>
 
-### Bottom View
+<tr>
+<td align="center">
+<b>Front View</b><br>
+<img src="Images/Double_Layer/Double_layer_Front_view.png" width="400">
+</td>
 
-![Two Layer Bottom](Images/Double_Layer/Bottom_Layer.png)
+<td align="center">
+<b>Back View</b><br>
+<img src="Images/Double_Layer/Double_layer_Back_view.png" width="400">
+</td>
+</tr>
+</table>
 
-### Front View
-
-![Two Layer Front](Images/Double_Layer/Double_layer_Front_view.png)
-
-### Back View
-
-![Two Layer Back](Images/Double_Layer/Double_layer_Back_view.png)
-
-### Sectional View
-
-![Two Layer Section](Images/Double_Layer/Double_layer_Sectional_view.png)
+<p align="center">
+<b>Sectional View</b><br>
+<img src="Images/Double_Layer/Double_layer_Sectional_view.png" width="500">
+</p>
 
 ---
 
