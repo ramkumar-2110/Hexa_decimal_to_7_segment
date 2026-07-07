@@ -1,6 +1,6 @@
 # Hexadecimal to 7-Segment Display using Digital Logic ICs
 
-![Two Layer Section](Images/Two_Layer/Sectional_View.png)
+![PCB](Images/Double_Layer/Double_layer_Sectional_view.png)
 
 ## Project Overview
 
@@ -123,25 +123,21 @@ Features
 - Manual component placement
 - Compact design
 
-### Top View
-
-![Single Layer Top](Images/Single_Layer/Top_View.png)
-
 ### Bottom View
 
-![Single Layer Bottom](Images/Single_Layer/Bottom_View.png)
+![Single Layer Bottom](Images/Single_Layer/Bottom_Layer.png)
 
 ### Front View
 
-![Single Layer Front](Images/Single_Layer/Front_View.png)
+![Single Layer Front](Images/Single_Layer/Single_Layer_Front_View.png)
 
 ### Back View
 
-![Single Layer Back](Images/Single_Layer/Back_View.png)
+![Single Layer Back](Images/Single_Layer/Single_Layer_Back_View.png)
 
 ### Sectional View
 
-![Single Layer Section](Images/Single_Layer/Sectional_View.png)
+![Single Layer Section](Images/Single_Layer/Single_Layer_Sectional_View.png)
 
 ---
 
@@ -159,23 +155,23 @@ Features
 
 ### Top View
 
-![Two Layer Top](Images/Two_Layer/Top_View.png)
+![Two Layer Top](Images/Double_Layer/Top_Layer.png)
 
 ### Bottom View
 
-![Two Layer Bottom](Images/Two_Layer/Bottom_View.png)
+![Two Layer Bottom](Images/Double_Layer/Bottom_Layer.png)
 
 ### Front View
 
-![Two Layer Front](Images/Two_Layer/Front_View.png)
+![Two Layer Front](Images/Double_Layer/Double_layer_Front_view.png)
 
 ### Back View
 
-![Two Layer Back](Images/Two_Layer/Back_View.png)
+![Two Layer Back](Images/Double_Layer/Double_layer_Back_view.png)
 
 ### Sectional View
 
-![Two Layer Section](Images/Two_Layer/Sectional_View.png)
+![Two Layer Section](Images/Double_Layer/Double_layer_Sectional_view.png)
 
 ---
 
