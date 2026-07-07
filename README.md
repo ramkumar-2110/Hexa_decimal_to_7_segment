@@ -149,10 +149,59 @@ Features
 ## Folder Structure
 
 ```
-Hexa_decimal_to_7_segment
+Hexadecimal_to_7Segment/
+
+│── README.md
+│── LICENSE (optional)
+
 │
-├── README.md
-```
+├── Docs
+│   ├── Single_Layer_Schematic.pdf
+│   ├── Two_Layer_Schematic.pdf
+│   ├── Single_Layer_Draftsman.pdf
+│   └── Two_Layer_Draftsman.pdf
+│
+├── Images
+│   │
+│   ├── Single_Layer
+│   │   ├── Top_View.png
+│   │   ├── Bottom_View.png
+│   │   ├── Front_View.png
+│   │   ├── Back_View.png
+│   │   └── Sectional_View.png
+│   │
+│   └── Two_Layer
+│       ├── Top_View.png
+│       ├── Bottom_View.png
+│       ├── Front_View.png
+│       ├── Back_View.png
+│       └── Sectional_View.png
+│
+├── Hardware
+│   │
+│   ├── Single_Layer
+│   │   ├── Top.SchDoc
+│   │   ├── Input_Switches.schDoc
+│   │   ├── Encoder&Decoder.schDoc
+│   │   ├── AND_operations.schDoc
+│   │   ├── Seven_Segment_Driver.schDoc
+│   │   ├── 7 segment 1.PrjPcb
+│   │   ├── Single_Layer.PcbDoc
+│   │   └── 7 segment 1.OutJob
+│   │
+│   ├── Double_Layer
+│   │   ├── Power_Input.SchDoc
+│   │   ├── Input_Switches.schDoc
+│   │   ├── Encoder&Decoder.schDoc
+│   │   ├── AND_operations.schDoc
+│   │   ├── Seven_Segment_Driver.schDoc
+│   │   ├── 7 segment 2.PrjPcb
+│   │   ├── Double_Layer.PcbDoc
+│   │   └── 7 segment 2.OutJob
+│
+├── Project_Outputs
+    ├── Single_layer_Gerber.zip
+    └── DOuble_layer_Gerber.zip
 
 ---
 
