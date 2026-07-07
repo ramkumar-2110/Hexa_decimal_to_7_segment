@@ -1,6 +1,6 @@
 # Hexadecimal to 7-Segment Display using Digital Logic ICs
 
-![PCB](Images/PCB_2Layer.png)
+![PCB](Images/Top_View.png)
 
 ## Project Overview
 
