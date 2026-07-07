@@ -1,6 +1,6 @@
 # Hexadecimal to 7-Segment Display using Digital Logic ICs
 
-![PCB](Images/Top_View.png)
+![Two Layer Section](Images/Two_Layer/Sectional_View.png)
 
 ## Project Overview
 
@@ -123,9 +123,29 @@ Features
 - Manual component placement
 - Compact design
 
+### Top View
+
+![Single Layer Top](Images/Single_Layer/Top_View.png)
+
+### Bottom View
+
+![Single Layer Bottom](Images/Single_Layer/Bottom_View.png)
+
+### Front View
+
+![Single Layer Front](Images/Single_Layer/Front_View.png)
+
+### Back View
+
+![Single Layer Back](Images/Single_Layer/Back_View.png)
+
+### Sectional View
+
+![Single Layer Section](Images/Single_Layer/Sectional_View.png)
+
 ---
 
-### Two Layer PCB
+### Double Layer PCB
 
 Features
 
@@ -134,6 +154,28 @@ Features
 - Reduced jumper requirements
 - Cleaner routing
 - Professional PCB layout
+
+## Two Layer PCB
+
+### Top View
+
+![Two Layer Top](Images/Two_Layer/Top_View.png)
+
+### Bottom View
+
+![Two Layer Bottom](Images/Two_Layer/Bottom_View.png)
+
+### Front View
+
+![Two Layer Front](Images/Two_Layer/Front_View.png)
+
+### Back View
+
+![Two Layer Back](Images/Two_Layer/Back_View.png)
+
+### Sectional View
+
+![Two Layer Section](Images/Two_Layer/Sectional_View.png)
 
 ---
 
